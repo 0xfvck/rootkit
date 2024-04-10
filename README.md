@@ -1,12 +1,15 @@
-# rootkit
-A simple Rootkit made by me o hide files in Linux.
+Save the code into a file named hide_processes_files.c.
+Open up a terminal and navigate to the directory where you saved the file.
+Time to compile the code! Type gcc -o hide_processes_files hide_processes_files.c and hit enter.
+Once it's compiled, run the program by typing ./hide_processes_files and hitting enter again.
+This will hide the current process and file, and also add any additional hidden processes and files you specify with their corresponding PIDs and paths.
+If you want to hide a specific process, use the ocultar_proceso() function and give it the process ID and a name.
+To hide a specific file, use the ocultar_archivo() function and provide it the file path and a name.
+The program will keep hiding the processes and files as long as it's running, so sit back and relax.
+When you're ready to stop the program, use the kill command with the process ID (PID) of the hide_processes_files program.
+If you ever need to check out the list of hidden processes, use the mostrar_procesos_ocultos() function.
 
-HOW TO USE: 
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.youtube.com/c/https://www.youtube.com/@1nfvck/videos" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/@1nfvck/videos" height="30" width="40" /></a>
-</p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> </p>
+
+
